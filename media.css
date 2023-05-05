@@ -1,5 +1,5 @@
 @media (max-width: 767px) {
-}
+
 header{
     position: fixed;
     top: 0;
@@ -36,8 +36,8 @@ header{
     }
     .firstbox{
         background-image: url(/images/Screenshot\ from\ 2023-05-02\ 18-35-02\ \(1\)_cleanup.png);
-        width: 80%;
-        height: 60%;
+        width: 50%;
+        height: 20%;
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -251,15 +251,15 @@ header{
     font-size: 10px;
  }
  .last{
-    width: 80%;
+    width: 100%;
     
 
  }
  .images img{
-    width: 80%;
+    width: 60%;
  }
  
-  
+}
 
   
  
