@@ -1,0 +1,265 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+    /* font-family: 'poppins',sans-serif; */
+    
+
+
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 28px 10% ;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 100; */
+
+
+
+
+
+}
+.navbar a{
+    font-size: 18px;
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+    font-size: 30px;
+    text-align: center;
+    
+    
+    }
+    .navbar a:hover,
+    .navbar a.active{
+        color: #00abf0; 
+    }
+    .firstbox{
+        background-image: url(/images/Screenshot\ from\ 2023-05-02\ 18-35-02\ \(1\)_cleanup.png);
+        width: 80%;
+        height: 20vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .firstbox{
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        padding: 0 10%;
+    
+    }
+    .home-content{
+        /* max-width: 600px; */
+    
+    
+    }
+    .home-content h1{
+        font-size: 56px;
+        font-weight: 700;
+        /* line-height: 1.2; */
+        color: antiquewhite;
+    
+        
+    }
+    .home-content .btn-box{
+        font-size: 16px;
+        width: 345px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    
+    
+    
+    }
+    .btn-box a{
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 100%;
+        background: palevioletred;
+        border: 2px solid palevioletred;
+        /* border-radius: 8px; */
+        color: black;
+        font-size: 19px;
+        text-decoration:none ;
+        font-weight: 600;
+        letter-spacing: 1px;
+        z-index: 1;
+        overflow: hidden;
+        transition: .5s;
+    
+    
+    
+    
+    
+    }
+    .btn-box a:hover{
+        color: plum;
+    }
+    .btn-box a:nth-child(2){
+        background: transparent;
+        color: palevioletred;
+    
+    }
+    .btn-box a:nth-child(2)::before{
+        
+        background: palevioletred;
+    
+    }
+    .btn-box a:nth-child(2):hover{
+       color: palevioletred;
+    
+    }
+    .btn-box a::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background:rgb(246, 152, 183);
+        z-index: -1;
+        transition: .5s;
+    }
+    .btn-box a:hover:before{
+        width: 100%;
+    
+    }
+    .ptag{
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .list{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+    .dresses{
+        text-decoration: underline;
+    }
+    .images{
+        display: flex;
+        justify-content: space-evenly;
+
+        margin-top: 5%;
+        /* margin-left: 10%; */
+    }
+  
+    .button a{
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        /* width: 300px;
+        height: 100%; */
+        background: palevioletred;
+        border: 2px solid palevioletred;
+        /* border-radius: 8px; */
+        color: black;
+        font-size: 30px;
+        text-decoration:none ;
+        font-weight: 600;
+        letter-spacing: 1px;
+        z-index: 1;
+        overflow: hidden;
+        transition: .5s; 
+        margin-top: 5%;
+        margin-bottom: 5%;
+        
+
+    }
+    .gym{
+        display: flex;
+        gap: 1rem;
+        margin-left: 10%;
+        
+    }
+    /* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: blanchedalmond;
+  }
+  footer{
+    display: flex;
+    justify-content: space-evenly;
+    /* max-width: 1200px;  */
+    /* margin: 0 auto; */
+    gap: 2rem;
+    margin-top: 10%;
+  }
+  footer {
+   
+    color:black;
+    padding: 20px;
+  }
+  footer p{
+    font-size: 10px;
+  }
+
+  
+
+ footer ul {
+    list-style: none;
+    gap: 2rem;
+    font-size: 15px;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* text-align: right; */
+  }
+  footer button{
+    font-size: 30px;
+    background-color: palevioletred;
+  }
+  input{
+    font-size: 20px;
+  }
+.bx{
+    font-size: 30px;
+    
+}
+.blue .bx{
+    color:skyblue;
+}
+.button{
+    text-align: center;
+    
+}
+
+ .gym .img2{
+    width: 700px;
+    height: 400px;
+ } 
+  .gym .img1{
+    width: 680px;
+ } 
+ .august{
+    text-align: center;
+    margin-top: 5%;
+ }
+ .august .p{
+    font-size: 20px;
+ }
+ .last{
+    width: 60%;
+        
+
+ }
+ 
+  
+
+  
+ 
+   
