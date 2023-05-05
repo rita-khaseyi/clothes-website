@@ -36,8 +36,9 @@ header{
     }
     .firstbox{
         background-image: url(/images/Screenshot\ from\ 2023-05-02\ 18-35-02\ \(1\)_cleanup.png);
-        width: 50%;
-        height: 20%;
+        width: 70%;
+        
+        
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -251,12 +252,12 @@ header{
     font-size: 10px;
  }
  .last{
-    width: 100%;
+    width: 80%;
     
 
  }
  .images img{
-    width: 60%;
+    width: 40%;
  }
  
 }
